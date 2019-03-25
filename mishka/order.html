@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=cyrillic" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<div class="goods-order">
+				<div class="goods-order__container  container">
+					<h2 class="goods-order__title"> Вязание на заказ</h2>
+				</div>
+				<p class="goods__text goods__text--order">
+					Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа, и мы свяжемся с вами, чтобы уточнить детали.
+				</p>
+				<form class="goods-order__form" action="mailto:misssssiskras@gmail.com" method="get">
+					<div class="goods-order__wrapper">
+						<h3 class="goods__title goods__title--order">тип</h3>
+						<div class="goods-order__label goods-order__label--wrapper goods-order__label--mobile">
+							<label for="accessory">
+								<input type="radio" name="type" id="accessory" value="аксессуар для интерьера" checked>
+								<span class="goods-order__label--text">аксессуар для интерьера</span>
+							</label>
+
+							<label for="toy">
+							<input type="radio" name="type" id="toy" value="детская игрушка">
+								<span class="goods-order__label--text">детская игрушка</span>	
+							</label>
+						</div>
+					</div>
+					<div class="goods-order__wrapper goods-order__wrapper--color">
+						<div class="goods-order__color-choose">
+							<h3 class="goods__title goods__title--order">цвет</h3>
+							<div class="goods-order__label--wrapper goods-order__label--mobile goods-order__label--colors">
+								<label for="white">
+								<input type="checkbox" name="color-field" id="white" value="" checked>
+								<span>белый</span>
+							</label>
+								<label for="black">
+								<input type="checkbox" name="color-field" id="black" value="">
+								<span>черный</span>
+							</label>
+							</div>
+							<div class="goods-order__label--wrapper goods-order__label--mobile goods-order__label--colors">
+								<label for="grey">
+								<input type="checkbox" name="color-field" id="grey" value="" checked>
+								<span>серый</span>
+							</label>
+								<label for="pink">
+								<input type="checkbox" name="color-field" id="pink" value="">
+								<span>розовый</span>
+							</label>
+							</div>
+							<div class="goods-order__label--wrapper goods-order__label--mobile goods-order__label--colors">
+								<label for="tiffany">
+								<input type="checkbox" name="color-field" id="tiffany" value="">
+								<span>"Тиффани"</span>
+							</label>
+								<label for="orange">
+								<input type="checkbox" name="color-field" id="orange" value="">
+								<span>оранжевый</span>
+							</label>
+							</div>
+						</div>
+					</div>
+					<div class="goods-order__wrapper">
+						<h3 class="goods__title goods__title--order">ФИО</h3>
+						<div class="goods-order__label--wrapper goods-order__label-align">
+							<label for="name">Имя:
+								<input class="input-name" type="text" name="name-field" id="name" placeholder="Введите ваше имя*">
+							</label>
+							<label for="surname">Фамилия:
+								<input class="input-surname" type="text" name="surname-field" id="surname" placeholder="Укажите фамилию*">
+							</label>
+							<label for="patronymic">Отчество:
+								<input class="input-patronymic" type="text" name="patronymic-field" id="patronymic" placeholder="Отчество, если желаете">
+							</label>
+						</div>
+					</div>
+					<div class="goods-order__wrapper goods-order__wrapper--color">
+						<h3 class="goods__title goods__title--order">ТЕЛ</h3>
+						<div class="goods-order__label--wrapper goods-order__label-align">
+							<label for="phone">
+								<input class="input-phone" type="text" name="phone-field" id="phone" value="+7 XXX XX XX*">
+							</label>
+						</div>
+					</div>
+					<div class="goods-order__wrapper goods-order__wrapper--color">
+						<h3 class="goods__title goods__title--order">E-MAIL</h3>
+						<div class="goods-order__label--wrapper goods-order__label-align">
+							<label for="mail">
+								<input class="input-mail" type="text" name="mail-field" id="mail" value="Ваш Email*">
+							</label>
+						</div>
+					</div>
+					<div class="goods-order__wrapper">
+						<h3 class="goods__title goods__title--order">ДОП</h3>
+						<div class="goods-order__label--wrapper goods-order__label-align">
+							<textarea type="text" name="additional" rows="6" id="additional-field" placeholder="Опишите все ваши пожелания к заказу">Опишите все ваши пожелания к заказу
+						</textarea>
+						</div>
+					</div>
+					<div class="goods-order__wrapper">
+						<div class="goods__btn-text">
+							<input class="goods__link goods__link--order" type="submit" value="отправить заказ">
+							<span class="goods__text goods__text--remark">
+					*Поля обязательны для заполнения
+						</span>
+						</div>
+					</div>
+				</form>
+
+			</div>
+			</body>
